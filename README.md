@@ -46,3 +46,4 @@ Don't play L4D? Contact me for adaptations of this autoexec for other source gam
 
 # TODO
 - Rewrite nowait / yeswait and clean things up with include.cfg
+- Bundle autoexecrage sounds with new release
