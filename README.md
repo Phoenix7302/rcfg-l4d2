@@ -1,13 +1,15 @@
 # RCFG
 A modern, advanced autoexec for L4D2
 
-<img src="https://user-images.githubusercontent.com/59309378/152957758-87db48f1-a31c-46d0-91e9-e5a1c0d1c203.gif" width="366" height="200"><img src="https://user-images.githubusercontent.com/59309378/152957767-db9162ed-3727-4766-a011-6cf79c70d427.gif" width="297" height="200"><img src="https://user-images.githubusercontent.com/59309378/152957771-3d621d16-ad68-4a25-89d1-6a671368e342.gif" width="287" height="200">
+<img src="https://user-images.githubusercontent.com/59309378/152957758-87db48f1-a31c-46d0-91e9-e5a1c0d1c203.gif" width="366" height="200"><img src="https://user-images.githubusercontent.com/59309378/152957767-db9162ed-3727-4766-a011-6cf79c70d427.gif" width="297" height="200">
 
 Looking to install? See INSTALLATION below.
 
 Don't play L4D? Contact me for adaptations of this autoexec for other source games: Phoenix#0805
 
 # Features
+<img src="https://user-images.githubusercontent.com/59309378/152957771-3d621d16-ad68-4a25-89d1-6a671368e342.gif" width="359" height="250">
+
 - Fully modular, very easy to use module loader for developers adding new scripts
 - Supports custom artwork, bind sets (for different gamemodes), core files, gamemodes, and scripts
 - You can easily hook up your old configs with priority_configs, so none of your old settings or scripts will be overwritten (they'll instead overwrite any conflicting RCFG settings)
@@ -22,6 +24,8 @@ Don't play L4D? Contact me for adaptations of this autoexec for other source gam
 - Cleanup, cleanupall, and recordfix commands to fix uncommon bugs like invisible special infected or frozen survivors
 
 # Custom scripts, gamemodes
+![tankbhop](https://user-images.githubusercontent.com/59309378/152971426-9fdcb5e9-9706-435a-a411-b7523513a971.gif)
+
 - Derpduck's solo versus gamemode / custom bhop practice gamemode for versus practice
 - Flashlight spammer, random campaign / mutation generator, null-cancelled movement
 - Netgraph toggles to view at all times or only on +showscores
