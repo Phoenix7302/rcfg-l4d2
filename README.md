@@ -7,6 +7,8 @@ Looking to install? See INSTALLATION below.
 
 Don't play L4D? Contact me for adaptations of this autoexec for other source games: Phoenix#0805
 
+See my servers here! https://discord.gg/PMqAvp3WEE
+
 # Features
 <img src="https://user-images.githubusercontent.com/59309378/152957771-3d621d16-ad68-4a25-89d1-6a671368e342.gif" width="359" height="250">
 
@@ -43,6 +45,8 @@ Don't play L4D? Contact me for adaptations of this autoexec for other source gam
 5. Follow instructions inside autoexec/documentation.cfg ("EVERYTHING'S INSTALLED --- WHAT NOW?")
 
 - You can use Notepad++ as a text editor, it's as established as WinRAR / 7-Zip: https://notepad-plus-plus.org/downloads/
+
+See my servers here! https://discord.gg/PMqAvp3WEE
 
 # TODO
 - Rewrite nowait / yeswait and clean things up with include.cfg
