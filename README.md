@@ -39,7 +39,7 @@ See my servers here! https://discord.gg/PMqAvp3WEE
 - Some competitive / third-party servers may restrict wait commands, and joining this servers may crash your game. To disable all wait commands, type "nowait" in console and you should be able to join these servers. Typing "yeswait" or "reset" will reenable all wait commands and refresh the autoexec.
 
 1. Navigate to Steam/steamapps/common/Left 4 Dead 2/left4dead2/cfg/. If there are any config files you want to keep, back them up now.
-2. Grab the latest release from https://github.com/Phoenix7302/rcfg-l4d2/archive/refs/tags/production.zip
+2. Grab the latest release from https://github.com/Phoenix7302/rcfg-l4d2/releases/latest
 3. Move all files in the release (autoexec.cfg, the autoexec/ folder) to Left 4 Dead 2/left4dead2/cfg/.
 4. You can move any of your own config files into autoexec/priority_configs/ now. Update /priority_configs/\_load_priority_configs.cfg with an exec to your file.
 5. Follow instructions inside autoexec/documentation.cfg ("EVERYTHING'S INSTALLED --- WHAT NOW?")
