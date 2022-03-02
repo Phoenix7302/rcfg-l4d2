@@ -13,6 +13,7 @@ See my servers here! https://discord.gg/PMqAvp3WEE
 <img src="https://user-images.githubusercontent.com/59309378/152957771-3d621d16-ad68-4a25-89d1-6a671368e342.gif" width="359" height="250">
 
 - Fully modular, very easy to use module loader for developers adding new scripts
+- Auto gameplay recorder (using Source Demos)
 - Supports custom artwork, bind sets (for different gamemodes), core files, gamemodes, and scripts
 - You can easily hook up your old configs with priority_configs, so none of your old settings or scripts will be overwritten (they'll instead overwrite any conflicting RCFG settings)
 - Easy toggle binds for lerp, bind sets, and custom scripts
