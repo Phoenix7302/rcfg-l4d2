@@ -37,7 +37,7 @@ See my servers here! https://discord.gg/PMqAvp3WEE
 - Other features seen in documentation.cfg
 
 # INSTALLATION
-- Some competitive / third-party servers may restrict wait commands, and joining this servers may crash your game. To disable all wait commands, type "nowait" in console and you should be able to join these servers. Typing "yeswait" or "reset" will reenable all wait commands and refresh the autoexec.
+- Some competitive / third-party servers may restrict wait commands, and joining these servers may crash your game. To disable all wait commands, type "nowait" in console and you should be able to join these servers. Typing "yeswait" or "reset" will re-enable all wait commands and refresh the autoexec.
 
 1. Navigate to Steam/steamapps/common/Left 4 Dead 2/left4dead2/cfg/. If there are any config files you want to keep, back them up now.
 2. Grab the latest release from https://github.com/Phoenix7302/rcfg-l4d2/releases/latest
