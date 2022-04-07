@@ -81,7 +81,7 @@ Networking, probably the biggest game altering change in this config, or any con
 
      - The downside of having a lower lerp is of course zombies can appear jittery, but in actual practice, this usually only appears to be a problem on commons with very bad ping (>250) / packet loss (in which case, you can freely raise it). I've rarely ever increased my lerp 16.7 to 33.3, even with >200 / >250 ping. Unless you're feeling jitter, there's no need to change it -- lower is always\[*\] better.
 
-It's a lot more complicated than this (shitboxes, particularly on Hunter), and there are other commands that significantly affect networking & game performance (notably cl_cmdrate), but that's a basic explanation: Lerp affects what you **see**, not what you **send**, but by lowering your lerp you can more accurately visualize their *real* hitbox positions. Here's some videos that demonstrate the classic hunter problem (the worst offender of this, since they frequently move the fastest):
+It's a lot more complicated than this (shitboxes, particularly on Hunter), and there are other commands that significantly affect networking & game performance (notably cl_cmdrate), but that's a basic explanation: by lowering your lerp you can more accurately visualize their *real* hitbox positions. Here's some videos that demonstrate the classic hunter problem (the worst offender of this, since they frequently move the fastest):
 
 https://youtu.be/a5g9shJuS1A?t=126
 
