@@ -71,6 +71,9 @@ See my servers here! https://discord.gg/PMqAvp3WEE
 - What's the point of `core/quotes.cfg`?
      - Long story short, it's a bunch of cyclers for keybinds. You can of course use them for other purposes than chat binds, but you can categorize any quotes you want to use there.
 
+# Lerp
+Networking, probably the biggest game altering change in this config, or any config for that matter:
+
 - I still don't understand "lerp" or why my game feels smoother.
      - Your connection is just a series of updates (packets) that say where everyone's position is. These positions are not going to be smooth at all (think 20fps compared to 90fps), when you play with 60 ping you're playing with 60ms of delay between each position. The game smooths the transition between these two points through `L`ag int`ERP`olation so that everything feels fluid. This means that, depending on the angle, a flying hunter's model probably isn't actually there, it's probably inbetween the two packet positions, so when you're shooting that hunter moving 12m/s, you're actually shooting... nothing. This is actually a HUGE problem because you'll be left wondering why you missed a charge dead-on. The default is 100(!!) lerp, and you can interpret that as 100 + your ping miliseconds of delay. That's .2 seconds of delay at 100 ping(!), and an automatic .1 seconds(!!!) of delay regardless of ping! Modern connections do not need such a generous value (especially with other networking settings), and you should probably play on a default of either 0, 10, or 16.7. The downside of having a lower lerp is of course zombies can appear jittery, but in actual practice, this usually only appears to be a problem on commons with very bad ping (>250) / packet loss (in which case, you can freely raise it). I've rarely ever increased my lerp 16.7 to 33.3, even with >200 / >250 ping. Unless you're feeling jitter, there's no need to change it -- lower is always\[*\] better. 
 
