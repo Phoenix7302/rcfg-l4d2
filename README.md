@@ -87,7 +87,7 @@ https://youtu.be/a5g9shJuS1A?t=126
 
 https://www.youtube.com/watch?v=quCryQqAU5w
 
-(unfortunately my favorite video for this is no longer available)
+(Note for nerds: For hunters, lerp changes far worse on bashing itself, which becomes absolutely horrible on higher lerps, rather than skeeting itself, which can be more manageable -- it'll kill your reaction time more. The lag compensation is actually pretty good at handling skeets.)
 
 # TODO
 - Rewrite nowait / yeswait and clean things up with include.cfg
