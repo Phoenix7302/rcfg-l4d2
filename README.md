@@ -75,17 +75,19 @@ See my servers here! https://discord.gg/PMqAvp3WEE
 Networking, probably the biggest game altering change in this config, or any config for that matter:
 
 - I still don't understand "lerp" or why my game feels smoother.
-     - Your connection is just a series of updates (packets) that say where everyone's position is. These positions are not going to be perfectly smooth (think 30fps compared to 100fps, with L4D tickrates), when you play with 60 ping you're playing with roughly 60ms of visual delay between each position. The game smooths the transition between these two points through `L`ag int`ERP`olation so that everything feels fluid. This means that, depending on the angle, the model of a flying hunter moving 11m/s probably isn't actually there, it's probably inbetween the two packet positions, so you're actually shooting... nothing.
+     - Your connection is just a series of updates (packets) that say where everyone's position is. These positions are not going to be perfectly smooth (think 30fps compared to 100fps, with L4D tickrates), when you play with 60 ping you're playing with roughly 60ms of visual delay between each position. The game smooths the transition between these two points through `L`ag int`ERP`olation so that everything feels fluid. This means that with interpolation, depending on the angle, the model of a flying hunter moving 11m/s probably isn't actually on the hitbox, it's probably inbetween the two packet positions, so you're actually shooting... nothing.
 
-     - This is a HUGE problem because you'll be left wondering why you missed a charge dead-on or a headshot skeet. The default is 100(!) lerp, and you can interpret that as 100 + your ping miliseconds of visual delay. That's .2 seconds of visual delay at 100 ping(!!), and an automatic .1 seconds(!!!) of visual delay (very roughly) regardless of ping (almost like added lag)! Modern connections do not need such a generous value (especially with other networking settings), and you should probably play on a default of either 0, 10, or 16.7.
+     - This is a HUGE problem because you'll be left wondering why you missed a charge dead-on or a headshot skeet. The default is 100(!) lerp, and you can interpret that as 100 + your ping miliseconds of visual delay. That's .2 seconds of visual delay at 100 ping(!!), and an automatic .1 seconds(!!!) of visual delay (very roughly) regardless of ping (almost like added lag)! Modern connections do not need such a generous value (especially with other networking settings), and you should probably play on a default of either 0, 10, or 16.7. (Note: The minimum value on Valve servers is 9.9 \[10\].)
 
-     - The downside of having a lower lerp is of course zombies can appear jittery, but in actual practice, this usually only appears to be a problem on commons with very bad ping (>250) / packet loss (in which case, you can freely raise it). I've rarely ever increased my lerp 16.7 to 33.3, even with >200 / >250 ping. Unless you're feeling jitter, there's no need to change it -- lower is always\[*\] better.
+     - The downside of having a lower lerp is of course zombies can appear jittery, but in actual practice, this usually only appears to be a problem on commons with very bad ping (>250) / packet loss (in which case, you can freely raise it). I've rarely ever increased my 16.7 lerp to 33.3, even with >200 / >250 ping. Unless you're feeling jitter, there's no need to change it -- lower is always\[*\] better.
 
 It's a lot more complicated than this (shitboxes, particularly on Hunter), and there are other commands that significantly affect networking & game performance (notably cl_cmdrate), but that's a basic explanation: by lowering your lerp you can more accurately visualize their *real* hitbox positions. Here's some videos that demonstrate the classic hunter problem (the worst offender of this, since they frequently move the fastest):
 
 https://youtu.be/a5g9shJuS1A?t=126
 
 https://www.youtube.com/watch?v=quCryQqAU5w
+
+A good general explanation of lerp using CS:GO (all Source games have generally the same net code base):
 
 https://www.youtube.com/watch?v=6EwaW2iz4iA
 
