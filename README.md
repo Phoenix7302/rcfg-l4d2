@@ -72,6 +72,10 @@ See my servers here! https://discord.gg/PMqAvp3WEE
      - Long story short, it's a bunch of cyclers for keybinds. You can of course use them for other purposes than chat binds, but you can categorize any quotes you want to use there.
 
 # Lerp
+**A good general explanation of lerp using CS:GO:**
+
+https://youtu.be/6EwaW2iz4iA?t=120
+
 Networking, probably the biggest game altering change in this config, or any config for that matter:
 
 - I still don't understand "lerp" or why my game feels smoother.
@@ -86,10 +90,6 @@ It's a lot more complicated than this (shitboxes, particularly on Hunter), and t
 https://youtu.be/a5g9shJuS1A?t=126
 
 https://www.youtube.com/watch?v=quCryQqAU5w
-
-A good general explanation of lerp using CS:GO (all Source games have generally the same net code base):
-
-https://www.youtube.com/watch?v=6EwaW2iz4iA
 
 (Note for nerds: For hunters, lerp changes far worse on bashing itself, which becomes absolutely horrible on higher lerps, rather than skeeting itself, which can be more manageable -- it'll kill your reaction time more. The lag compensation is actually pretty good at handling skeets.)
 
