@@ -87,6 +87,8 @@ https://youtu.be/a5g9shJuS1A?t=126
 
 https://www.youtube.com/watch?v=quCryQqAU5w
 
+https://www.youtube.com/watch?v=6EwaW2iz4iA
+
 (Note for nerds: For hunters, lerp changes far worse on bashing itself, which becomes absolutely horrible on higher lerps, rather than skeeting itself, which can be more manageable -- it'll kill your reaction time more. The lag compensation is actually pretty good at handling skeets.)
 
 # TODO
